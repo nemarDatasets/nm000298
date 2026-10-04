@@ -1,0 +1,133 @@
+_dataset:
+  class: WRCC2023_MI_B
+  code: WRCC2023-MI-B
+  doi: 10.7910/DVN/HFNWRX
+  interval:
+  - 0
+  - 3.999
+  n_subjects: 9
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 59
+  hardware: Neuracle 64-channel EEG (59 EEG channels retained)
+  line_freq: 50.0
+  montage: standard_1005
+  sampling_rate: 1000.0
+  sensors:
+  - Fpz
+  - Fp1
+  - Fp2
+  - AF3
+  - AF4
+  - AF7
+  - AF8
+  - Fz
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - FCz
+  - FC1
+  - FC2
+  - FC3
+  - FC4
+  - FC5
+  - FC6
+  - FT7
+  - FT8
+  - Cz
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - T7
+  - T8
+  - CP1
+  - CP2
+  - CP3
+  - CP4
+  - CP5
+  - CP6
+  - TP7
+  - TP8
+  - Pz
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - POz
+  - PO3
+  - PO4
+  - PO5
+  - PO6
+  - PO7
+  - PO8
+  - Oz
+  - O1
+  - O2
+documentation:
+  country: CN
+  data_url: https://doi.org/10.7910/DVN/HFNWRX
+  description: MI-B three-class (left hand, right hand, feet) motor imagery EEG dataset of the BCI competition at the 2023
+    World Robot Contest; 9 subjects (2 stroke, 7 healthy).
+  doi: 10.7910/DVN/HFNWRX
+  investigators:
+  - WRCC2023
+  keywords:
+  - motor imagery
+  - BCI
+  - brain-computer interface
+  - EEG
+  - World Robot Contest
+  - left hand
+  - right hand
+  - feet
+  - stroke
+  license: CC0-1.0
+  publication_year: 2024
+  repository: Harvard Dataverse
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - feet
+  events:
+    feet: 3
+    left_hand: 1
+    right_hand: 2
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  study_design: Cued three-class motor imagery (left hand, right hand, both feet). Each subject file holds 90 interleaved
+    trials, 30 per class.
+  synchronicity: cue-based
+  trial_duration: 4.0
+  trials_per_class:
+    feet: 30
+    left_hand: 30
+    right_hand: 30
+file_format: MAT (v5)
+participants:
+  clinical_population: stroke (2 of 9 subjects); remaining subjects healthy
+  health_status: mixed
+  n_subjects: 9
+  species: homo sapiens
+runs_per_session: 90
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  pathology:
+  - stroke
+  - healthy
+  type:
+  - Motor Imagery
