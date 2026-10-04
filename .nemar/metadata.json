@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "WRCC2023": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.7910/DVN/HFNWRX",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000298",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000298",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "WRCC2023-MI-B",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "377 MB (811 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A three-class motor imagery EEG dataset (MI-B) from the BCI competition at the 2023 World Robot Contest. It contains recordings from 9 participants (2 stroke patients, 7 healthy) who performed cued imagery of left hand, right hand and feet movements, with 30 trials per class. Data were recorded at 1000 Hz from 59 EEG channels and are provided in BIDS format with HED event annotations.",
+  "methods_description": "Cued, offline three-class motor imagery (left hand, right hand, both feet) recorded with a Neuracle 64-channel EEG system (59 EEG channels retained) at 1000 Hz. Each subject has one session of 90 interleaved trials (30 per class), each 4 s long.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "World Robot Contest"
+    },
+    {
+      "term": "BCI competition"
+    }
+  ],
+  "source_hash": "db77d1cc8b1c131656c633d8adc85a513c24809e444e49e07b20f78cf50ec43c"
+}
