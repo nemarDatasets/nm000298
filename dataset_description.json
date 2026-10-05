@@ -1,5 +1,5 @@
 {
-    "Name": "WRCC2023-MI-B",
+    "Name": "WRCC2023_MI_B: Three-class motor imagery dataset (MI-B) of the BCI competition WRCC2023",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -36,5 +36,8 @@
             "URL": "https://doi.org/10.7910/DVN/HFNWRX"
         }
     ],
-    "PublicationYear": 2024
+    "PublicationYear": 2024,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
