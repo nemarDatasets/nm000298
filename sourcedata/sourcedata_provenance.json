@@ -1,1 +1,69 @@
-../.git/annex/objects/Fg/Fz/SHA256E-s1873--a856b00017368f85766a04658c22b9800780b014522e20f2f1d5fa6097e59d3b.json/SHA256E-s1873--a856b00017368f85766a04658c22b9800780b014522e20f2f1d5fa6097e59d3b.json
+{
+ "dataset": "nm000298",
+ "moabb_class": "WRCC2023_MI_B",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.WRCC2023_MI_B.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/WRCC2023_MI_B/MNE-wrcc2023-mi-b-data/api/access/datafile",
+ "license": "CC0-1.0",
+ "doi": "10.7910/DVN/HFNWRX",
+ "naming": "upstream_filenames_restored",
+ "n_files": 9,
+ "total_bytes": 1529286048,
+ "files": [
+  {
+   "file": "10358832",
+   "bytes": 169920672,
+   "sha256": "482ff622f11be16981ce993320dafa02ee8edcbb4be1ef184692ded68ff6bbe7",
+   "subject": "9"
+  },
+  {
+   "file": "10358833",
+   "bytes": 169920672,
+   "sha256": "c9c4ea62d05b8b0a3fcdfb122a7de2913d5a910cb2ab4a2df9004920f2cd6585",
+   "subject": "2"
+  },
+  {
+   "file": "10358834",
+   "bytes": 169920672,
+   "sha256": "efc149e91a6b3c5ba447e79363836e3e811fa9556005d85efff8a7a781c16313",
+   "subject": "6"
+  },
+  {
+   "file": "10358835",
+   "bytes": 169920672,
+   "sha256": "63fb2f141c26cf2e3c5e20abf7a0191d9bf75b9d1736cd8290febfd77cf3a50f",
+   "subject": "7"
+  },
+  {
+   "file": "10358836",
+   "bytes": 169920672,
+   "sha256": "614274fee0be65809addeb70c76eebe789932206b74341a21391d74b2e31647e",
+   "subject": "4"
+  },
+  {
+   "file": "10358837",
+   "bytes": 169920672,
+   "sha256": "efa120bec151b287d22406e021b5fd78746ae9368085673013a0430024e3c1d1",
+   "subject": "8"
+  },
+  {
+   "file": "10358838",
+   "bytes": 169920672,
+   "sha256": "f6c1cba989d8d0c4a71278e03fc0803fcfd765765f96130a2ab9e44f3b42f02a",
+   "subject": "5"
+  },
+  {
+   "file": "10358839",
+   "bytes": 169920672,
+   "sha256": "5e14ef0cd375a3fd4ca16a3eca74255f251869bb87b69979ee7d38bf7e66a445",
+   "subject": "1"
+  },
+  {
+   "file": "10358840",
+   "bytes": 169920672,
+   "sha256": "ce9481692c1d79b7fdb60b9d1b653e1416c872b8a62124f9e706976ab3eb9d0b",
+   "subject": "3"
+  }
+ ]
+}
