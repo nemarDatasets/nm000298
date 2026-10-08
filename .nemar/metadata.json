@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "WRCC2023_MI_B: Three-class motor imagery dataset (MI-B) of the BCI competition WRCC2023",
-  "description": "A three-class motor imagery EEG dataset (MI-B) released for the BCI competition at the 2023 World Robot Contest. It contains recordings from 9 participants (7 healthy, 2 stroke patients) imagining left hand, right hand, and feet movements, with 30 cued trials per class. Data were recorded with a 59-channel EEG montage at 1000 Hz and re-released in BIDS format via MOABB.",
-  "methods_description": "Cue-based offline three-class motor imagery paradigm (left hand, right hand, feet), 90 interleaved trials per subject (30 per class), 4 s trials. EEG was recorded with a Neuracle 64-channel system (59 EEG channels retained) at 1000 Hz with 50 Hz line frequency.",
+  "description": "Three-class motor imagery EEG dataset (MI-B) from the BCI competition at the 2023 World Robot Contest (WRCC2023). It contains recordings from nine subjects, two of them stroke patients and seven healthy, performing cued imagery of left hand, right hand and feet movements (30 trials per class). Signals were recorded with a 59-channel Neuracle EEG system at 1000 Hz and re-released in BIDS format via MOABB.",
+  "methods_description": "Cued offline three-class motor imagery paradigm (left hand, right hand, both feet) with 90 interleaved 4-second trials per subject, 30 per class. EEG was recorded with a Neuracle 64-channel system, 59 EEG channels retained, at 1000 Hz with a 50 Hz line frequency.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,15 +23,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "BCI competition"
-    },
-    {
       "term": "Stroke",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
       "term": "World Robot Contest"
+    },
+    {
+      "term": "BCI competition"
     }
   ],
   "related_identifiers": [
@@ -67,14 +67,15 @@
     "eeg"
   ],
   "sizes": [
-    "377 MB (811 files)"
+    "1.79 GB (821 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "35e29db50065170b85dce27ec38869a9dc7e181b4529e5a0bb01a3b825cca389"
+  "source_hash": "30995f8179a7749a5e224cda8cba5335fe95b7f892a0c3e8c4e81c52ad5cd3ea"
 }
