@@ -1,43 +1,47 @@
 {
-    "Name": "WRCC2023_MI_B: Three-class motor imagery dataset (MI-B) of the BCI competition WRCC2023",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC0-1.0",
-    "Authors": [
-        "WRCC2023"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.7910/DVN/HFNWRX"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "BCI",
-        "brain-computer interface",
-        "EEG",
-        "World Robot Contest",
-        "left hand",
-        "right hand",
-        "feet",
-        "stroke"
-    ],
-    "DatasetDOI": "doi:10.7910/DVN/HFNWRX",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.7910/DVN/HFNWRX",
-            "URL": "https://doi.org/10.7910/DVN/HFNWRX"
-        }
-    ],
-    "PublicationYear": 2024,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "WRCC2023_MI_B: Three-class motor imagery dataset (MI-B) of the BCI competition WRCC2023",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "WRCC2023"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7910/DVN/HFNWRX"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "BCI",
+    "brain-computer interface",
+    "EEG",
+    "World Robot Contest",
+    "left hand",
+    "right hand",
+    "feet",
+    "stroke"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000298",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.7910/DVN/HFNWRX",
+      "URL": "https://doi.org/10.7910/DVN/HFNWRX"
+    },
+    {
+      "DOI": "doi:10.7910/DVN/HFNWRX"
+    }
+  ],
+  "PublicationYear": 2024,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
